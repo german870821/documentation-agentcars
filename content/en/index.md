@@ -1,24 +1,24 @@
 ---
 seo:
-  title: Test Documentation Agentcars
-  description: Description test for documentation for Agentcars.
+  title: Documentation API Agentcars
+  description: This web service works on REST, delivering all the answers on a JSON or XML, the authentication is controlled with an authorization token associated with your public IP, allowing the consultation of this.
 ---
 
 ::u-page-hero
 #title
-Test Documentation Agentcars Example
+Documentation API Agentcars
 
 #description
-My description for the documentation Agentcars.
+This web service works on REST, delivering all the answers on a JSON or XML, the authentication is controlled with an authorization token associated with your public IP, allowing the consultation of this.
 
 #links
   :::u-button
   ---
   color: neutral
   size: xl
-  to: /en/subsection/example-one
+  to: /v2/introduction
   trailing-icon: i-lucide-arrow-right
   ---
-  Example 1
+  Get Started
   :::
 ::
