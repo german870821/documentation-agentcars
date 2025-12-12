@@ -1,6 +1,10 @@
 export default defineNuxtConfig({
   extends: ['docus'],
-  modules: ['@nuxtjs/i18n', '@nuxt/ui'],
+  modules: [
+    '@nuxtjs/i18n',
+    '@nuxt/ui',
+    'nuxt-studio',
+  ],
   i18n: {
     defaultLocale: 'en',
     locales: [

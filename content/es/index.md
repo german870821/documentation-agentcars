@@ -16,7 +16,7 @@ Este webservice funciona sobre REST, entregando todas las respuestas en JSON ó 
   ---
   color: neutral
   size: xl
-  to: /es/subsection/example-one
+  to: /v2/introduction
   trailing-icon: i-lucide-arrow-right
   ---
   Empezar
