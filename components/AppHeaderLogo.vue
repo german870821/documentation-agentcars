@@ -4,28 +4,14 @@
 
   const items: DropdownMenuItem[] = [
     {
-      label: 'Example One',
-      icon: 'i-lucide-users',
+      label: 'API v2',
+      // icon: 'i-lucide-users',
       color: 'primary',
-      to: '/en/subsection/example-one'
+      to: '/v2/introduction'
     },
     {
-      label: 'Invite users',
-      icon: 'i-lucide-user-plus',
-      // children: [
-      //   {
-      //     label: 'Invite by email',
-      //     icon: 'i-lucide-send-horizontal'
-      //   },
-      //   {
-      //     label: 'Invite by link',
-      //     icon: 'i-lucide-link'
-      //   }
-      // ]
-    },
-    {
-      label: 'New team',
-      icon: 'i-lucide-plus'
+      label: 'API v3 (comming soon)',
+      // icon: 'i-lucide-plus'
     }
   ]
 </script>
@@ -46,7 +32,7 @@
     <UDropdownMenu size="xs" :items="items" :ui="{ content: 'w-(--reka-dropdown-menu-trigger-width)' }">
       <UButton
         size="xs"
-        label="API"
+        label="API v2"
         color="neutral"
         variant="outline"
         block
