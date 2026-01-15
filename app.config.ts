@@ -18,13 +18,15 @@ export default defineAppConfig({
     }
   },
   socials: {
-    x: 'https://x.com/nuxt_js',
-    discord: 'https://discord.com/invite/ps2h6QT',
-    nuxt: 'https://nuxt.com',
+    //x: 'https://x.com/nuxt_js',
+    //discord: 'https://discord.com/invite/ps2h6QT',
+    //nuxt: 'https://nuxt.com',
+    instagram: 'https://www.instagram.com/agentcarsoficial/',
+    facebook: 'https://www.facebook.com/AgentCars',
   },
-  github: {
-    url: 'https://github.com/nuxt-content/docus',
-    branch: 'main',
-    rootDir: 'docs'
-  }
+  // github: {
+  //   url: 'https://github.com/nuxt-content/docus',
+  //   branch: 'main',
+  //   rootDir: 'docs'
+  // }
 })
